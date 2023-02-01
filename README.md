@@ -23,3 +23,6 @@ API practice
 
 ### STEP 7 | Templates in Jinja2 and context mapping
 - [details](./readme/step7.md)
+
+### STEP 8 | Templates url and include
+- [details](./readme/step8.md)
