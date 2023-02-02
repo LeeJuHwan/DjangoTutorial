@@ -28,6 +28,8 @@ API practice
 - [details](./readme/step8.md)
 
 ### STEP 9 | Error page templates
-- [detaisl](./readme/step9.md)
+- [details](./readme/step9.md)
 
 ### STEP 10 | Static files import
+- [details](./readme/step10.md)
+
