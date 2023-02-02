@@ -26,3 +26,8 @@ API practice
 
 ### STEP 8 | Templates url and include
 - [details](./readme/step8.md)
+
+### STEP 9 | Error page templates
+- [detaisl](./readme/step9.md)
+
+### STEP 10 | Static files import
