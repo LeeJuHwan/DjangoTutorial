@@ -41,3 +41,6 @@ API practice
 
 ### STEP 13 | Updating Model(Table) 
 - [details](./readme/step13.md)
+
+### STEP 14 | Model, Template combine
+- [details](./readme/step14.md)
