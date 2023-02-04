@@ -33,3 +33,11 @@ API practice
 ### STEP 10 | Static files import
 - [details](./readme/step10.md)
 
+### STEP 11 | ORM, DATABASE
+- [details](./readme/step11.md)
+
+### STEP 12 | DB config, query select
+- [details](./readme/step12.md)
+
+### STEP 13 | Updating Model(Table) 
+- [details](./readme/step13.md)
