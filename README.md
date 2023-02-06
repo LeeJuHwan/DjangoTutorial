@@ -44,3 +44,15 @@ API practice
 
 ### STEP 14 | Model, Template combine
 - [details](./readme/step14.md)
+
+### STEP 15 | Admin Page
+- [details](./readme/step15.md)
+
+### STEP 16 | REST
+- [details](./readme/step16.md)
+
+### STEP 17 | Forms
+- [details](./readme/step17.md)
+
+### STEP 18 | Django forms styling
+- [details](./readme/step18.md)
