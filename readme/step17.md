@@ -51,8 +51,8 @@
 
         return render(request, "polls/survey_custom.html", {"form" : form})
 
-    def thanks(request) :
-        return render(request, "polls/thanks.html", {})
+        def thanks(request) :
+            return render(request, "polls/thanks.html", {})
         ```
 
     - `polls/templates/polls/survey_custom.htl`
