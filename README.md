@@ -56,3 +56,9 @@ API practice
 
 ### STEP 18 | Django forms styling
 - [details](./readme/step18.md)
+
+### STEP 19 | Model form
+- [details](./readme/step19.md)
+
+### STEP 20 | CBV(Class Based View)
+- [details](./readme/step20.md)

@@ -1,11 +1,17 @@
-from django import forms
+from django.forms import ModelForm, TextInput, NumberInput, forms
+from polls.models import Survey
 
-class SurveyForm(forms.Form):
-    user_name = forms.CharField(
-        label="your name", 
-        max_length=100,
-        widget=forms.TextInput(attrs={"class" : "form-control"}))
+class SurveyForm(ModelForm):
+    class Meta:
+        model = Survey
+        fields = "__all__"
+        labels = {
+            "user_name" : "User Name",
+            "user_age" : "User Age"
+        } 
+        widgets = {
+            "user_name" : TextInput(attrs={"class" : "form-control"}),
+            "user_age" : NumberInput(attrs={"class" : "form-control"})
+        }
 
-    user_age = forms.IntegerField(
-        label="your age",
-        widget=forms.NumberInput(attrs={"class" : "form-control"}))
+    
