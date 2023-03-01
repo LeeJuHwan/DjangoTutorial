@@ -63,7 +63,7 @@ API practice
 ### STEP 20 | CBV(Class Based View)
 - [details](./readme/step20.md)
 
-## Inflearn Video Tutorial
+# Inflearn Video Tutorial
 
 ### STEP 1 | FormView
 - [details](./readme/inflearn1.md)
