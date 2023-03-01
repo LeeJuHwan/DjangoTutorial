@@ -1,7 +1,7 @@
 # DjangoTutorial
 API practice 
 
-## Django pracitce
+## Django Documentation Tutorial 
 
 ### STEP 1 | virtual setting
 - [details](./readme/step1.md)
@@ -62,3 +62,8 @@ API practice
 
 ### STEP 20 | CBV(Class Based View)
 - [details](./readme/step20.md)
+
+## Inflearn Video Tutorial
+
+### STEP 1 | FormView
+- [details](./readme/inflearn1.md)
