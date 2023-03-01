@@ -67,3 +67,6 @@ API practice
 
 ### STEP 1 | FormView
 - [details](./readme/inflearn1.md)
+
+### STEP 2 | CRUD & LIST VIEW
+- [details](./readme/inflearn2.md)
