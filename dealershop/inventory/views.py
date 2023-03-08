@@ -4,6 +4,8 @@ from django.views.generic.edit import FormView,  CreateView, UpdateView, DeleteV
 from django.views.generic.list import ListView
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.views.generic.detail import DetailView
+
+
 from .forms import CarForm
 from .models import Car
 from django.utils import timezone
@@ -58,4 +60,5 @@ class CarUpdateView(UpdateView) :
 class CarDeleteView(DeleteView) :
     model = Car
     success_url = reverse_lazy("inventory:car-list")
+
 

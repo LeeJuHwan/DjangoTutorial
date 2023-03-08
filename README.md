@@ -70,3 +70,9 @@ API practice
 
 ### STEP 2 | CRUD & LIST VIEW
 - [details](./readme/inflearn2.md)
+
+### STEP 3 | Redriect View & Class Meta
+- [details](./readme/inflearn3.md)
+
+### STEP 4 | Authentication & login, logout
+- [details](./readme/inflearn4.md)
