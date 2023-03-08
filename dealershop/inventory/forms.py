@@ -1,5 +1,4 @@
 from django import forms
-from django.db import models
 
 class CarForm(forms.Form) :
     brand = forms.CharField()
