@@ -74,5 +74,5 @@ API practice
 ### STEP 3 | Redriect View & Class Meta
 - [details](./readme/inflearn3.md)
 
-### STEP 4 | Authentication & login, logout
+### STEP 4 | Authentication & login, logout, Member Registration
 - [details](./readme/inflearn4.md)

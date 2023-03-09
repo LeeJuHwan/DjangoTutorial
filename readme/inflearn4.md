@@ -102,3 +102,65 @@
 
 <img width="980" alt="image" src="https://user-images.githubusercontent.com/118493627/223752236-3a6c9445-45c1-4fd1-9b71-f42e00a14d44.png">
 
+---
+
+## DJANGO-ALLAUTH
+<img width="1157" alt="image" src="https://user-images.githubusercontent.com/118493627/224057744-1bf462de-299b-454b-96fe-2cfc6c1e3860.png">
+
+- [공식 홈페이지](https://django-allauth.readthedocs.io/en/latest/)
+- 로그인, 로그아웃, 회원가입, 소셜 로그인 지원
+
+- 설치
+    ```
+    pip install django-allauth
+    ```
+### ABOUT CODE
+- setting
+    - `dealershop/settings.py`
+        - template
+            ```
+            "django.template.context_processors.request",
+            ```
+        - authentication backend
+            ```
+            AUTHENTICATION_BACKENDS = [
+            'django.contrib.auth.backends.ModelBackend',
+
+            'allauth.account.auth_backends.AuthenticationBackend'],
+            ```
+        - installed apps
+            ```
+            'django.contrib.sites',
+            'allauth',
+            'allauth.account',
+            'allauth.socialaccount',
+            ```
+        - site id
+            ```
+            SITE_ID = 1
+            ```
+- url
+    - `dealershop/urls.py`
+        ```
+        path("accounts/", include("allauth.urls")),
+        ```
+
+- tempalte
+    - `inventory/temapltes/inventory/main.html`
+        ```
+        {{ logout }} -> {{ account_logout }}
+
+        {{ login }} -> {{a ccount_login }}
+        ```
+
+- migrate
+    ```
+    python manage.py migrate
+    ```
+
+### allauth customizing
+- [공식 깃허브](https://github.com/pennersr/django-allauth/tree/master/allauth/templates/account)
+
+<img width="726" alt="image" src="https://user-images.githubusercontent.com/118493627/224064998-27fe1aa2-7e3b-41ca-aed3-6ae9478eab2b.png">
+
+- 깃 허브에 있는 템플릿을 동일 폴더 구조로 구성한 뒤, 내용 변경 및 CSS 추가 

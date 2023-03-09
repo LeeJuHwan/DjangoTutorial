@@ -22,7 +22,8 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("inventory/", include("inventory.urls")),
     path("", RedirectView.as_view(url = "inventory/")),
-    path('accounts/', include('django.contrib.auth.urls')),
+    # path('accounts/', include('django.contrib.auth.urls')),
+    path("accounts/", include("allauth.urls")),
     path("signup", views.SignUpView.as_view(), name = "signup"),
     
 ]
