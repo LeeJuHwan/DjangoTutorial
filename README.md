@@ -76,3 +76,18 @@ API practice
 
 ### STEP 4 | Authentication & login, logout, Member Registration
 - [details](./readme/inflearn4.md)
+
+### STEP 5 | API
+- [details](./readme/inflearn5.md)
+
+### STEP 6 | Learn DRF-Serializers and write code with FBVs types
+- [details](./readme/inflearn6.md)
+
+### STEP 7 | Learn about request & response and DRF - CBVs types
+-[details](./readme/inflearn7.md)
+
+### STEP 8 | Linking APIs to each other & learn about Viewset with Default router
+- [more details](./readme/inflearn8.md)
+
+### STEP 9 | Learn about Viewset & Router
+- [more details](./readme/inflearn9.md)
